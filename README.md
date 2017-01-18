@@ -2,8 +2,6 @@
 
 Video & audio player for flutter
 
-![]()
-
 ## Android
 
 - Embedded player : VideoView added in mainActivity layout
