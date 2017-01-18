@@ -1,0 +1,5 @@
+name: flutter_mediaplayer_plugin
+description: A new flutter project.
+dependencies:
+  flutter:
+    sdk: flutter
