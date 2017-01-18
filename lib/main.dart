@@ -38,22 +38,25 @@ class _MediaplayerState extends State<MediaPlayer> {
                         new RaisedButton(
                             child: new Text('Play Video'), onPressed: _play),
                         new RaisedButton(
-                            child: new Text('stop Video'), onPressed: _stop),
+                            child: new Text('stop'), onPressed: _stop),
+                        new Padding(
+                            padding: const EdgeInsets.all(28.0),
+                            child: new RaisedButton(
+                                child: new Text('video activity'),
+                                onPressed: _openVideoActivity)),
                       ], mainAxisAlignment: MainAxisAlignment.center),
                       /*new Text(_platformFeedback),*/
-                      new Padding(
-                          padding: const EdgeInsets.all(28.0),
-                          child: new RaisedButton(
-                              child: new Text('open video activity'),
-                              onPressed: _openVideoActivity)),
-                      new Row( mainAxisAlignment: MainAxisAlignment.center, children: [
-                        new RaisedButton(
-                            child: new Text('Play Audio'),
-                            onPressed: _playAudio),
-                        new RaisedButton(
-                            child: new Text('stop Audio'),
-                            onPressed: _stopAudio)
-                      ])
+
+                      new Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            new RaisedButton(
+                                child: new Text('Play Audio'),
+                                onPressed: _playAudio),
+                            new RaisedButton(
+                                child: new Text('stop Audio'),
+                                onPressed: _stopAudio)
+                          ])
                     ]))));
   }
 
