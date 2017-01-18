@@ -20,3 +20,5 @@ Video & audio player for flutter
  
 ![screenAndroid](assets/ios.png)
 ![screenAndroid](assets/ipad.png)
+
+## PlatformMessages
