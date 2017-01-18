@@ -19,6 +19,7 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		C95602102AB1C54C5FA219F6 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95607E45B54A172AC274F08 /* VideoController.m */; };
+		C9560AA8E144756138E9278B /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C95604D48272B7DDDEFA498A /* AudioPlayer.m */; };
 		C9560DE83BDB7D0BF62B05B4 /* VideoEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9560C12A9BF95F7F348707F /* VideoEmbedder.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C956008F035D7E85085B2480 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		C956025DDB333701C333F0B2 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		C95604D48272B7DDDEFA498A /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		C95607105CDA20826792E181 /* VideoEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEmbedder.h; sourceTree = "<group>"; };
 		C95607E45B54A172AC274F08 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
 		C9560C12A9BF95F7F348707F /* VideoEmbedder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEmbedder.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				C9560C12A9BF95F7F348707F /* VideoEmbedder.m */,
 				C956008F035D7E85085B2480 /* VideoController.h */,
 				C95607E45B54A172AC274F08 /* VideoController.m */,
+				C956025DDB333701C333F0B2 /* AudioPlayer.h */,
+				C95604D48272B7DDDEFA498A /* AudioPlayer.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				C9560DE83BDB7D0BF62B05B4 /* VideoEmbedder.m in Sources */,
 				C95602102AB1C54C5FA219F6 /* VideoController.m in Sources */,
+				C9560AA8E144756138E9278B /* AudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

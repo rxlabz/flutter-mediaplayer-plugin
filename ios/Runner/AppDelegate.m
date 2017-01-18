@@ -7,10 +7,12 @@
 #import <Flutter/Flutter.h>
 #import "VideoController.h"
 #import "VideoEmbedder.h"
+#import "AudioPlayer.h"
 
 @implementation AppDelegate {
     VideoController* _videoController;
     VideoEmbedder* _videoEmbedder;
+    AudioPlayer* _audioPlayer;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -29,6 +31,11 @@
     _videoController = [[VideoController alloc] init];
     [flutterController addMessageListener:_videoController];
     _videoController.controller = flutterController;
+
+    /// listen to 'playAudio', 'stopAudio' PlatformMessages
+    _audioPlayer = [[AudioPlayer alloc] init];
+    [flutterController addMessageListener:_audioPlayer];
+    _audioPlayer.controller = flutterController;
 
     self.window.rootViewController = flutterController;
     [self.window makeKeyAndVisible];
