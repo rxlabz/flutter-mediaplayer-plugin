@@ -2,6 +2,17 @@
 
 Video & audio player for flutter
 
+## Dart
+
+`PlatformMessages.sendString()`
+
+```dart
+Future<Null> _playAudio() async {
+String reply = await PlatformMessages.sendString('playAudio', kAudioUrl);
+print("playAudio => $reply");
+}
+```
+
 ## Android
 
 => cf. [MainActivity.java](https://github.com/rxlabz/flutter-mediaplayer-plugin/blob/master/android/app/src/main/java/com/example/flutter/MainActivity.java)
