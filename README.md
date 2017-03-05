@@ -2,6 +2,15 @@
 
 Video & audio player for flutter
 
+```bash
+git clone
+cd flutter-media-plugin
+flutter packages get
+flutter doctor
+# after following all doctor's instructions
+flutter run -d YOUR_DEVICE
+```
+
 ## Dart
 
 `PlatformMessages.sendString()`
