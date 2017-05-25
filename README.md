@@ -1,4 +1,9 @@
-# Flutter mediaplayer plugin POC
+# Obsolete
+
+- video plugin : see https://github.com/rxlabz/video_launcher
+- audio plugin : see https://github.com/rxlabz/audioplayer
+
+## Flutter mediaplayer plugin POC
 
 Video & audio player for flutter
 
